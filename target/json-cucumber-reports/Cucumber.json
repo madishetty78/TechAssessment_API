@@ -1,0 +1,990 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-03-19T03:28:35.472Z",
+        "line": 4,
+        "name": "Perform UI Specific GET operations on the Home Page",
+        "description": "",
+        "id": "perform-ui-spec-operations-on-the-home-page-and-support-page;perform-ui-specific-get-operations-on-the-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7904940900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the Home page",
+            "match": {
+              "location": "glueCode.getHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 365338100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the \"GET LIST USERS\" method button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET LIST USERS\"",
+                  "offset": 15
+                }
+              ],
+              "location": "glueCode.i_click_on_the_method(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174725600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see \"https://reqres.in/api/users?page\u003d2\" End Point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://reqres.in/api/users?page\u003d2\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_endpoint(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 550221000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see \"200\" Response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_response(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148401400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the \"GET SINGLE USER\" method button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET SINGLE USER\"",
+                  "offset": 15
+                }
+              ],
+              "location": "glueCode.i_click_on_the_method(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 352781099,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see \"https://reqres.in/api/users/2\" End Point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://reqres.in/api/users/2\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_endpoint(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 561232899,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see \"200\" Response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_response(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2325724500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the \"GET SINGLE USER NOT FOUND\" method button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET SINGLE USER NOT FOUND\"",
+                  "offset": 15
+                }
+              ],
+              "location": "glueCode.i_click_on_the_method(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159634600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see \"https://reqres.in/api/users/23\" End Point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://reqres.in/api/users/23\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_endpoint(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 563912701,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"404\" Response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"404\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_response(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI_Scenario"
+          },
+          {
+            "name": "@GET"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-03-19T03:28:48.588Z",
+        "line": 21,
+        "name": "Perform UI Specific POST operations on the Home Page",
+        "description": "",
+        "id": "perform-ui-spec-operations-on-the-home-page-and-support-page;perform-ui-specific-post-operations-on-the-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2263105100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am on the Home page",
+            "match": {
+              "location": "glueCode.getHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127152900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on the \"POST CREATE\" method button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST CREATE\"",
+                  "offset": 15
+                }
+              ],
+              "location": "glueCode.i_click_on_the_method(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122431000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see \"https://reqres.in/api/users\" End Point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://reqres.in/api/users\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_endpoint(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 534768200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see \"201\" Response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"201\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_response(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI_Scenario"
+          },
+          {
+            "name": "@POST"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-03-19T03:28:51.638Z",
+        "line": 31,
+        "name": "Perform UI Specific PUT operations on the Home Page",
+        "description": "",
+        "id": "perform-ui-spec-operations-on-the-home-page-and-support-page;perform-ui-specific-put-operations-on-the-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2387504400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am on the Home page",
+            "match": {
+              "location": "glueCode.getHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128455300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on the \"PUT\" method button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 15
+                }
+              ],
+              "location": "glueCode.i_click_on_the_method(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74947500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I should see \"https://reqres.in/api/users/2\" End Point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://reqres.in/api/users/2\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_endpoint(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 533794400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should see \"200\" Response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_response(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI_Scenario"
+          },
+          {
+            "name": "@PUT"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-03-19T03:28:54.764Z",
+        "line": 41,
+        "name": "Perform UI Specific PATCH operations on the Home Page",
+        "description": "",
+        "id": "perform-ui-spec-operations-on-the-home-page-and-support-page;perform-ui-specific-patch-operations-on-the-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1869666300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I am on the Home page",
+            "match": {
+              "location": "glueCode.getHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 239366500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click on the \"PATCH\" method button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 15
+                }
+              ],
+              "location": "glueCode.i_click_on_the_method(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96054800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I should see \"https://reqres.in/api/users/2\" End Point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://reqres.in/api/users/2\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_endpoint(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 537330100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I should see \"200\" Response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_response(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI_Scenario"
+          },
+          {
+            "name": "@PATCH"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-03-19T03:28:57.508Z",
+        "line": 51,
+        "name": "Perform UI Specific DELETE operations on the Home Page",
+        "description": "",
+        "id": "perform-ui-spec-operations-on-the-home-page-and-support-page;perform-ui-specific-delete-operations-on-the-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1609204500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I am on the Home page",
+            "match": {
+              "location": "glueCode.getHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304632100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click on the \"DELETE\" method button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 15
+                }
+              ],
+              "location": "glueCode.i_click_on_the_method(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83653300,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I should see \"https://reqres.in/api/users/2\" End Point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://reqres.in/api/users/2\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_endpoint(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 532896000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I should see \"204\" Response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"204\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_response(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI_Scenario"
+          },
+          {
+            "name": "@DELETE"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-03-19T03:29:00.041Z",
+        "line": 61,
+        "name": "Perform UI Specific operations on the Home Page and Support Page",
+        "description": "",
+        "id": "perform-ui-spec-operations-on-the-home-page-and-support-page;perform-ui-specific-operations-on-the-home-page-and-support-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2793780999,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I am on the Home page",
+            "match": {
+              "location": "glueCode.getHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75665699,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I should see \"SUPPORT REQRES\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SUPPORT REQRES\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176923900,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I click on the \"SUPPORT REQRES\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SUPPORT REQRES\"",
+                  "offset": 15
+                }
+              ],
+              "location": "glueCode.i_click_on_the_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43509800,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I should see \"One-time payment ($)\" Option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"One-time payment ($)\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_Option(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34579901,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I should see \"Monthly support ($5/month)\" Option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Monthly support ($5/month)\"",
+                  "offset": 13
+                }
+              ],
+              "location": "glueCode.i_should_see_a_Option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64057200,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I should see Support \"UPGRADE\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UPGRADE\"",
+                  "offset": 21
+                }
+              ],
+              "location": "glueCode.i_should_see_a_support_button(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI_Scenario"
+          },
+          {
+            "name": "@SupportPage"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Perform UI Spec operations on the Home Page and Support Page",
+    "description": "",
+    "id": "perform-ui-spec-operations-on-the-home-page-and-support-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/001_UI_Spec.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-03-19T03:29:03.235Z",
+        "line": 4,
+        "name": "Perform POST operation to Create user",
+        "description": "",
+        "id": "perform-api-post-and-get-operations-on-https://reqres.in/-url;perform-post-operation-to-create-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8997800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i have payload with the following details",
+            "match": {
+              "location": "apiCode.iHavePayloadWithTheFollowingDetails(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "job"
+                ]
+              },
+              {
+                "cells": [
+                  "morpheus",
+                  "leader"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4454893099,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I send a POST request to \"/api/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/api/users\"",
+                  "offset": 25
+                }
+              ],
+              "location": "apiCode.iSendAPostRequestToCreateTheHero(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 330599,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should receive a response with status code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 45
+                }
+              ],
+              "location": "apiCode.i_should_receive_a_response_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1059227500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the POST response should contain the message",
+            "match": {
+              "location": "apiCode.the_Post_response_should_contain_the_message(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "job"
+                ]
+              },
+              {
+                "cells": [
+                  "morpheus",
+                  "leader"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API_Scenario"
+          },
+          {
+            "name": "@POST_method"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-03-19T03:29:08.761Z",
+        "line": 17,
+        "name": "Perform GET operation to get user by id",
+        "description": "",
+        "id": "perform-api-post-and-get-operations-on-https://reqres.in/-url;perform-get-operation-to-get-user-by-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 662300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have setup the base URI",
+            "match": {
+              "location": "apiCode.i_have_setup_the_base_uri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155332300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I send a GET request to \"/api/users/2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/api/users/2\"",
+                  "offset": 24
+                }
+              ],
+              "location": "apiCode.i_send_a_get_request_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177901,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should receive a response with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 45
+                }
+              ],
+              "location": "apiCode.i_should_receive_a_response_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129392500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the GET response should contain the message",
+            "match": {
+              "location": "apiCode.the_Get_response_should_contain_the_message(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "email",
+                  "first_name",
+                  "last_name",
+                  "avatar",
+                  "url",
+                  "text"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "janet.weaver@reqres.in",
+                  "Janet",
+                  "Weaver",
+                  "https://reqres.in/img/faces/2-image.jpg",
+                  "https://contentcaddy.io?utm_source\u003dreqres\u0026utm_medium\u003djson\u0026utm_campaign\u003dreferral",
+                  "Tired of writing endless social media content? Let Content Caddy generate it for you."
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API_Scenario"
+          },
+          {
+            "name": "@GET_method"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Perform API POST and GET Operations on https://reqres.in/ URL",
+    "description": "",
+    "id": "perform-api-post-and-get-operations-on-https://reqres.in/-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/002_API_Spec.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-03-19T03:29:09.048Z",
+        "line": 4,
+        "name": "Generate Position Report from input files",
+        "description": "",
+        "id": "generate-position-report-by-transforming-data-from-instrument-details-and-position-details-tables;generate-position-report-from-input-files",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2779450200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I upload the file \"InstrumentDetails\" to Database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"InstrumentDetails\"",
+                  "offset": 18
+                }
+              ],
+              "location": "glueCode.i_upload_the_file_to_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3515300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I upload the file \"PositionDetails\" to Database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PositionDetails\"",
+                  "offset": 18
+                }
+              ],
+              "location": "glueCode.i_upload_the_file_to_database(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9986700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I generate the PositionReport from after processing",
+            "match": {
+              "location": "glueCode.i_generate_the_PositionReport_from_database()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ETL"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Generate Position Report by transforming data from Instrument Details and Position Details tables",
+    "description": "",
+    "id": "generate-position-report-by-transforming-data-from-instrument-details-and-position-details-tables",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/003_Data_Load_Transformation.feature",
+    "tags": []
+  }
+]
